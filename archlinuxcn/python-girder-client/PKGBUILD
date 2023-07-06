@@ -2,8 +2,8 @@
 
 _pkgname=girder-client
 pkgname=python-girder-client
-pkgver=3.1.17
-pkgrel=2
+pkgver=3.1.21
+pkgrel=1
 pkgdesc='Python client for interacting with Girder servers'
 arch=('any')
 url='https://pypi.org/project/girder-client'
@@ -19,7 +19,7 @@ makedepends=(
   python-setuptools
 )
 source=("${_pkgname}-${pkgver}.tar.gz::https://files.pythonhosted.org/packages/source/${_pkgname::1}/${_pkgname}/${_pkgname}-${pkgver}.tar.gz")
-sha512sums=('90dbc0b10b88c766e23980af06ad40dcbe32642dbb11f4c4b1b1689e6fc395dec9cc14f79bc1544960b0389767b4ed53e6542e1f44cf51927b7fd3c537198314')
+sha512sums=('d7494b23e7cf4cd6d92b9611d4858cca0254e0c4678da380cf90a7aadb06c902529f6995707c7928c69c87a61bf3f2c47f9fef80d01983946d18b620b4f3072f')
 
 build() {
   cd "${_pkgname}-${pkgver}"

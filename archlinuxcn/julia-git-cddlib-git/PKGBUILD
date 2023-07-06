@@ -1,6 +1,6 @@
 pkgname=julia-git-cddlib-git
-pkgver=0.9.2.0.2.gdf5b9db
-pkgrel=1
+pkgver=0.9.2.0.4.g9700752
+pkgrel=2
 pkgdesc="CDDLib.jl"
 url="https://github.com/JuliaPolyhedra/CDDLib.jl"
 arch=('any')

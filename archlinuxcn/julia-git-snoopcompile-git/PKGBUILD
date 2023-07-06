@@ -3,8 +3,8 @@ _subpkgs=(SnoopCompileBot
           SnoopCompileCore
           SnoopPrecompile)
 pkgname=(julia-git-snoopcompile-git)
-pkgver=2.10.7
-pkgrel=1
+pkgver=2.10.8
+pkgrel=2
 pkgdesc="SnoopCompile.jl"
 url="https://github.com/timholy/SnoopCompile.jl"
 arch=('any')

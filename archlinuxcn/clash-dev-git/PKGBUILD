@@ -4,7 +4,7 @@
 
 pkgname=clash-dev-git
 _pkgname=clash
-pkgver=1.15.1.r14.gca42ca2
+pkgver=1.17.0.r0.g24186a4
 pkgrel=1
 pkgdesc="A rule-based tunnel in Go"
 arch=('x86_64')

@@ -3,8 +3,8 @@
 
 _pkgname=pywebview
 pkgname=python-pywebview
-pkgver=4.1
-pkgrel=2
+pkgver=4.2.2
+pkgrel=1
 pkgdesc='Build GUI for your Python program with JavaScript, HTML, and CSS'
 arch=('any')
 url='https://pywebview.flowrl.com/'
@@ -13,7 +13,11 @@ depends=(
   python-proxy_tools
 )
 makedepends=(
+  python-build
+  python-installer
   python-setuptools
+  python-setuptools-scm
+  python-wheel
 )
 optdepends=(
   'python-gobject: use with GTK'
@@ -23,16 +27,17 @@ optdepends=(
   'qt5-webkit: use with Qt')
 install="${pkgname}.install"
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/r0x0r/pywebview/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('b024bf65627f8d01f6cbfa8b12dbc4d691d1286f20ae5ec079b12bb7bc7e877a')
+sha256sums=('713530266b2692a3e40c08ade2ccf5f2db3e985d15806559ed05ac1f13e7ecf4')
 
 build() {
   cd "${_pkgname}-${pkgver}"
-  python setup.py build
+  SETUPTOOLS_SCM_PRETEND_VERSION=${pkgver} \
+  python -m build --wheel --no-isolation
 }
 
 package() {
   cd "${_pkgname}-${pkgver}"
-  python setup.py install --root="${pkgdir}/" --optimize=1 --skip-build
-  install -Dm 644 "LICENSE.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  python -m installer --destdir="${pkgdir}" dist/*.whl
+  install -Dm 644 "LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 # vim:set ts=2 sw=2 et:

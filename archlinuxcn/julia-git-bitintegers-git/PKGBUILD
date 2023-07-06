@@ -1,6 +1,6 @@
 pkgname=julia-git-bitintegers-git
-pkgver=0.2.7.0.5.gf889adc
-pkgrel=1
+pkgver=0.3.0
+pkgrel=3
 pkgdesc="BitIntegers.jl"
 url="https://github.com/rfourquet/BitIntegers.jl"
 arch=('any')

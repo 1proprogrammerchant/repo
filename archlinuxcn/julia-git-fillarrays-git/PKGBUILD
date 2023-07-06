@@ -1,6 +1,6 @@
 pkgname=julia-git-fillarrays-git
-pkgver=1.0.0.0.7.gb9cc590
-pkgrel=1
+pkgver=1.3.0
+pkgrel=2
 pkgdesc="FillArrays.jl"
 url="https://github.com/JuliaArrays/FillArrays.jl"
 arch=('any')

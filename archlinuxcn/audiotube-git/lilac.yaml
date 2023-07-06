@@ -15,4 +15,3 @@ update_on:
     aur: audiotube-git
 
   - source: manual
-    manual: 1

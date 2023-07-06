@@ -1,6 +1,6 @@
 pkgname=julia-git-ipopt-git
-pkgver=1.2.1.0.3.ge5fd613
-pkgrel=1
+pkgver=1.4.1
+pkgrel=3
 pkgdesc="Ipopt.jl"
 url="https://github.com/jump-dev/Ipopt.jl"
 arch=('any')

@@ -1,7 +1,7 @@
 # Maintainer: Hao Long <aur@esd.cc>
 
 pkgname=bgpq4
-pkgver=1.9
+pkgver=1.11
 pkgrel=1
 pkgdesc="BGP Filter generator"
 arch=("x86_64" "i686")
@@ -9,7 +9,7 @@ url="https://github.com/bgp/bgpq4"
 license=('BSD')
 depends=('glibc')
 source=("${url}/archive/${pkgver}/${pkgname}-${pkgver}.tar.gz")
-b2sums=('dafde219bee974080533f441b448618842e05dd4262d74911630398a2434433a243620f92097fd89d6dec9fd773fcf915c9a474ff55248d6594a1c58d950916a')
+b2sums=('9ec40c82ceed06b37747869da1ad29a7910d3babf93f2c12219cb85fdc8983145fe6fbfbe5a4d9d7f9f064d3c79566dc0b2f0151de10c7231df279d3bb6961e0')
 
 build() {
   cd "$pkgname-$pkgver"

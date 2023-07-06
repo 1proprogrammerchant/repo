@@ -1,5 +1,5 @@
 pkgname=julia-git-mocking-git
-pkgver=0.7.6.0.1.g06392c4
+pkgver=0.7.6.0.7.g98de500
 pkgrel=2
 pkgdesc="Mocking.jl"
 url="https://github.com/invenia/Mocking.jl"

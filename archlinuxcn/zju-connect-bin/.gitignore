@@ -1,6 +1,1 @@
-*.zip
-*.deb
-*.zst
-*.toml
-pkg/
-src/
+config.toml

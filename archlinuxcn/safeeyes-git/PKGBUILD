@@ -1,7 +1,7 @@
 # Maintainer: Hao Long <imlonghao@archlinuxcn.org>
 
 pkgname=safeeyes-git
-pkgver=2.1.5.r18.g684d162
+pkgver=2.1.6.r1.gae88ad3
 pkgrel=1
 pkgdesc='A Free and Open Source tool for Linux users to reduce and prevent repetitive strain injury (RSI)'
 arch=('any')
@@ -30,7 +30,7 @@ prepare() {
 
 pkgver() {
   cd $pkgname
-  git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+  git describe --long --tags | sed 's/^v*//;s/\([^-]*-g\)/r\1/;s/-/./g'
 }
 
 build() {

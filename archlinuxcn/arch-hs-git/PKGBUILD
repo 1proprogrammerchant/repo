@@ -1,8 +1,8 @@
 # Maintainer: berberman <hatsue@typed.icu>
 
 pkgname=arch-hs-git
-pkgver=0.11.0.r2.g6432c77
-pkgrel=9
+pkgver=0.11.0.r5.g6126ef9
+pkgrel=8
 pkgdesc="Distribute hackage packages to archlinux"
 arch=('x86_64')
 url="https://github.com/berberman/arch-hs"

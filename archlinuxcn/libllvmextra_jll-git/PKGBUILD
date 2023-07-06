@@ -1,8 +1,8 @@
 #
 
 pkgname=libllvmextra_jll-git
-pkgver=v5.1.0.r0.ge44c430
-pkgrel=2
+pkgver=v6.0.1.r2.gda0d892
+pkgrel=1
 pkgdesc='Deps for LLVM.jl'
 arch=(aarch64 armv7h i686 x86_64)
 url='https://github.com/maleadt/LLVM'

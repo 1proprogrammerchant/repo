@@ -1,6 +1,6 @@
 pkgname=julia-git-latexify-git
-pkgver=0.16.0.0.3.g41c40e7
-pkgrel=1
+pkgver=0.16.1
+pkgrel=2
 pkgdesc="Latexify.jl"
 url="https://github.com/korsbo/Latexify.jl"
 arch=('any')
