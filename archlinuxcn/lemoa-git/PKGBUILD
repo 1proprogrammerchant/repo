@@ -2,7 +2,7 @@
 
 pkgname=lemoa-git
 _pkgname=${pkgname%-git}
-pkgver=r101.b38d225
+pkgver=r109.2442843
 pkgrel=1
 pkgdesc="Native Gtk client for Lemmy (alpha state)"
 arch=('x86_64')

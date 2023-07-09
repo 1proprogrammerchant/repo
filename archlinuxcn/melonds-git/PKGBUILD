@@ -2,7 +2,7 @@
 
 pkgname=melonds-git
 _gitname=melonDS
-pkgver=2127.3c635983
+pkgver=2129.0947e941
 pkgdesc='DS emulator, sorta. also 1st quality melon.'
 pkgrel=1
 arch=('i686' 'x86_64')
