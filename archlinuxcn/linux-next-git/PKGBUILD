@@ -6,7 +6,7 @@
 # Contributor:  Timofey Titovets <nefelim4ag@gmail.com>
 
 pkgbase=linux-next-git
-pkgver=20230712.r0.g40b055fe7f27
+pkgver=20230721.r0.gae867bc97b71
 _srcname=linux-next
 pkgrel=1
 pkgdesc='Linux NEXT'

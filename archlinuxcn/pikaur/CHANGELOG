@@ -2083,3 +2083,31 @@ Fri May 26 04:41:58 2023 +0200
     *  2023-05-26 4620ade actionless fix(getpkgbuild_cli): --unprivileged was renamed to --protocol=https in `devtools`
     *  2023-05-26 810efe4 actionless fix(pkgbuild): add python-hatchling
     *  2023-05-23 2faea6e Curtis Lee Bolin chore(packaging): copy metadata from `setup.py` to `pyproject.toml` (#716)
+
+
+Fri Jul 14 05:03:49 2023 +0200
+-------------------------------------------------
+1.16            Release 1.16
+    
+    Notable changes:
+    *  2023-07-14 971206b actionless fix/refactor(pikspect): use pty.spawn() as a base instead of subprocess.Popen() - to fix working with latest `sudo` `use_pty` default set to `true`
+    *  2023-07-13 e3b5d5e actionless fix(install_cli: init: refresh): don't break terminal with the new `sudo` use_pty defaults to `true`
+    *  2023-06-27 5a9a2f3 actionless feat(getpkgbuild, args): add -o/--output flag for -G operation, update AUR repo if already cloned (fixes #723)
+    *  2023-06-20 a174539 actionless fix(pacman: find_sysupgrade_pkgs): when computing deps take into account pkgs which gon be installed manually (fixes #727)
+
+
+Fri Jul 14 10:23:03 2023 +0200
+-------------------------------------------------
+1.16.1          Hotfix release 1.16.1
+    
+    2023-07-14 b16c2fa actionless fix(pikspect): `is None` and handle stdin without timeout (fixes #729)
+
+
+Sun Jul 16 21:50:14 2023 +0200
+-------------------------------------------------
+1.17            Release 1.17
+    
+    Notable changes:
+    *  2023-07-15 453ec40 actionless feat: return also previous behavior, where only `pacman` command is escalating (re: #729) - PrivilegeEscalationTarget config option
+    *  2023-07-15 76575d6 actionless feat: implement new logic for privilege delegation instead of old sudo loop (fixes #729) - also add UserId config option
+    *  2023-07-15 524f6df actionless refactor: completely remove old SudoLoop (re: #729) - remove SudoLoopInterval config option
